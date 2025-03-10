@@ -1,0 +1,14 @@
+{
+  "name": "feuerwehr-tools",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/no4any/feuerwehr-tools.git",
+  "author": "no4any <martin@karry.de>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "web:dev": "yarn workspace @feuerwehr-tools/web run dev",
+    "web:build" : "yarn workspace @feuerwehr-tools/web run build"
+  }
+}
