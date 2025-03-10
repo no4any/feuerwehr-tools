@@ -6,9 +6,14 @@
   "author": "no4any <martin@karry.de>",
   "license": "MIT",
   "private": true,
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "web:dev": "yarn workspace @feuerwehr-tools/web run dev",
-    "web:build" : "yarn workspace @feuerwehr-tools/web run build"
+    "web:build": "yarn workspace @feuerwehr-tools/web run build"
+  },
+  "devDependencies": {
+    "yarn": "^1.22.22"
   }
 }
